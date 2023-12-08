@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+  font-family: "Martel Sans", sans-serif;
+}
+.main {
+  background-image: url("assets/bg.jpg");
+  height: 90vh;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+
+.main .box {
+  opacity: 0.79;
+  color: whitesmoke;
+  height: 90vh;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.leftNav img {
+  width: 9.25;
+  height: 2.5rem;
+  cursor: pointer;
+  color: red;
+  position: relative;
+  z-index: 10;
+}
+
+.headers {
+  z-index: 10;
+  position: relative;
+  padding: 10vh;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  padding: 228px 340px 19px 380px;
+}
+
+.headers :first-child {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.headers :nth-child(2) {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.headers :nth-child(3) {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+nav button {
+  z-index: 10;
+  position: relative;
+}
+
+.signIn {
+  width: 4.813rem;
+  height: 2rem;
+  background-color: red;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 900;
+}
+
+.language {
+  width: 6rem;
+  height: 2.15rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 900;
+  background-color: #000;
+  color: whitesmoke;
+  margin: 7px;
+}
+
+.searchbtn {
+  width: 13.125rem;
+  height: 3.563rem;
+  background-color: red;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 900;
+  z-index: 10;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.search {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin-left: 360px;
+}
+.ar1 {
+  display: none;
+}
+.search input {
+  width: 24rem;
+  height: 2.6rem;
+  margin: 0 18px;
+  border: 1px rgba(23, 23, 23, 0.7) dotted;
+  padding: 10px 106px 10px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 200;
+  z-index: 10;
+  position: relative;
+  background-color: rgba(23, 23, 23, 0.7);
+}
+
+.seperation {
+  width: 149.5%;
+  left: -50%;
+  margin-top: 35px;
+  background: rgb(175, 11, 87);
+  background: radial-gradient(
+    circle,
+    rgba(175, 11, 87, 0.87718837535014) 10%,
+    rgba(65, 22, 42, 1) 45%
+  );
+  border-top-left-radius: 50% 100%;
+  height: calc(76vh - 75.6vh);
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  border: solid 0.25rem transparent;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  border-bottom: none;
+  z-index: 5;
+  border-radius: inherit;
+  right: 0;
+  bottom: 0;
+}
+
+.firstContent {
+  background-color: #000;
+}
+
+.banner1 {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 77.54%;
+  height: auto;
+  padding: 66px;
+  padding-left: 361px;
+}
+
+.banner {
+  background: rgb(175, 11, 87);
+  background: linear-gradient(
+    90deg,
+    rgba(175, 11, 87, 0.87718837535014) 9%,
+    rgba(65, 22, 42, 1) 78%
+  );
+  padding: 24px 100px 24px 40px;
+  width: 60rem;
+  border-radius: 20px;
+}
+
+.banner :first-child {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.banner :nth-child(2) {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.h2name {
+  background-color: #000;
+  padding-left: 355px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.cards {
+  background-color: #000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cardsCombine{
+  padding: 12px 10px 20px 180px;
+  width: 72%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.svgTV{
+  margin: 71px 0px 0px 228px;
+}
+
+.svgTV1{
+  margin: 53px 0px 0px 232px;
+}
+
+.card1 {
+  width: 286.75px;
+  height: 150px;
+  border-radius: 15px;
+  padding: 32px 24px 128px;
+  background: rgb(29, 26, 50);
+  background: linear-gradient(
+    185deg,
+    rgba(29, 26, 50, 1) 42%,
+    rgba(65, 22, 42, 1) 86%
+  );
+  margin-bottom: 40px;
+}
+
+.card3 {
+  width: 286.75px;
+  height: 150px;
+  padding: 32px 24px 128px;
+  border-radius: 15px;
+  background: rgb(29, 26, 50);
+  background: linear-gradient(
+    185deg,
+    rgba(29, 26, 50, 1) 42%,
+    rgba(65, 22, 42, 1) 86%
+  );
+  margin-bottom: 40px;
+}
+.card2 {
+  width: 286.75px;
+  height: 150px;
+  background: rgb(29, 26, 50);
+  padding: 32px 24px 128px;
+  border-radius: 15px;
+  background: linear-gradient(
+    185deg,
+    rgba(29, 26, 50, 1) 42%,
+    rgba(65, 22, 42, 1) 86%
+  );
+  margin-bottom: 40px;
+}
+
+.card4 {
+  width: 286.75px;
+  height: 150px;
+  background: rgb(29, 26, 50);
+  padding: 32px 24px 128px;
+  border-radius: 15px;
+  background: linear-gradient(
+    185deg,
+    rgba(29, 26, 50, 1) 42%,
+    rgba(65, 22, 42, 1) 86%
+  );
+  margin-bottom: 40px;
+}
+
+.freQues{
+  width: 81.4%;
+  height: 700px;
+  background-color: #000;
+  padding-left: 18.6%;
+  padding-bottom: 20px;
+}
+
+.firstQ{
+  width: 956px;
+  height: 35px;
+  background-color: #2d2d2d;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 8px;
+  cursor: pointer;
+}
+
+.firstQ h3 + i{
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.footerEntry{
+  background-color: #000;
+  width: 100%;
+  margin: 50px 0px 0px 1px;
+
+}
+
+.footerEntry span{
+  color: #848484;
+}
+
+.search1{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin-left: -18px;
+}
+
+.search1 input {
+  width: 24rem;
+  height: 2.6rem;
+  margin: 0 18px;
+  border: 1px rgba(23, 23, 23, 0.7) dotted;
+  padding: 10px 379px 10px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 200;
+  z-index: 10;
+  position: relative;
+  background-color: rgba(23, 23, 23, 0.7);
+}
+
+.footer{
+  background-color: #000;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer p{
+  margin: 0 0 -10px 353px;
+  color: #9d9d9d;
+}
+
+.footer a{
+  color: #9d9d9d;
+}
+
+.footContain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0 0 353px;
+  width: 1004px;
+}
+
+.footContain li{
+  list-style: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: #9d9d9d;
+}
+
+.language1 {
+  width: 6rem;
+  height: 2.15rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 900;
+  background-color: #000;
+  color: whitesmoke;
+  margin: 32px 0px 30px 350px;
+}

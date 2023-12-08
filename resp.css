@@ -1,0 +1,235 @@
+@media (max-width: 430px) {
+  .main {
+    background-image: url("assets/bg.jpg");
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+  }
+
+  .main .box {
+    opacity: 0.79;
+    color: whitesmoke;
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+  }
+
+  .ar2 {
+    display: none;
+  }
+  .leftNav img {
+    width: 89px;
+    height: 24px;
+    margin: -10px;
+  }
+
+  .signIn {
+    width: 76px;
+    height: 31px;
+  }
+
+  .language {
+    width: 64px;
+    height: 31px;
+    overflow: hidden;
+    padding: 2px;
+    margin-right: 12px;
+  }
+
+  .headers {
+    z-index: 10;
+    position: relative;
+    padding: 5vh;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 129px 35px 24px 38px;
+  }
+
+  .headers :first-child {
+    font-weight: 900;
+    font-size: 32px;
+  }
+
+  .headers :nth-child(2) {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .headers :nth-child(3) {
+    font-weight: 300;
+    font-size: 16px;
+    color: grey;
+  }
+  .search {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .search input {
+    width: 9.125rem;
+    height: 2.5rem;
+    font-size: small;
+    padding: 10px 200px 10px 10px;
+    margin: 14px 18px;
+    position: relative;
+  }
+  .searchbtn {
+    width: 160px;
+    height: 48px;
+    margin: 0px 0px 0px 17px;
+  }
+
+  .seperation{
+    width: 148%;
+  }
+  .banner1{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75.7%;
+    height: auto;
+    gap: 0;
+    padding-left: 38px;
+    padding-bottom: 20px;
+  }
+
+  .banner{
+    background:rgb(175,11,87);
+    background: linear-gradient(90deg, rgba(175,11,87,0.87718837535014) 9%, rgba(65,22,42,1) 78%);
+    width: 100%;
+    height: 176px;
+    border-radius: 20px;
+    padding: 24px 11px 8px 14px;
+    gap: 25px;
+  }
+
+  .banner :first-child{
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .banner :nth-child(2) {
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .h2name {
+    background-color: #000;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 18px;
+ }
+
+ .cardsCombine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px 51px 2px 35px;
+ }
+ .card1{
+  width: 320px;
+    height: 212px;
+    padding: 15px 11px 0px;
+ }
+ .card2{
+  width: 320px;
+    height: 212px;
+    padding: 15px 11px 0px;
+ }
+ .card3{
+  width: 320px;
+    height: 212px;
+    padding: 15px 11px 0px;
+ }
+ .card4{
+  width: 320px;
+    height: 212px;
+    padding: 15px 11px 0px;
+ }
+
+ .svgTV{
+  margin: 19px 0px 0px 246px;
+ }
+
+ .svgTV1{
+  margin: 19px 0px 0px 246px;
+ }
+
+ .freQues {
+  width: 96.3%;
+  height: 800px;
+  background-color: #000;
+  padding-left: 3.6%;
+}
+
+ .firstQ{
+  width: 340px;
+ }
+
+ .search1{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+}
+
+  .search1 input{
+    padding: 10px 0px 10px 10px;
+    width: 23rem;
+    height: 2.6rem;
+    margin: 14px 18px;
+  }
+
+  .h2name{
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 18px;
+  }
+
+  .footerEntry {
+    width: 99%;
+  }
+
+  .footerEntry span{
+    color: #848484;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .footer p {
+    margin: 0px 0px -10px 35px;
+    color: rgb(157, 157, 157);
+    padding-bottom: 30px;
+  }
+  .footContain {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 10px 0 0 38px;
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .language1 {
+    width: 6rem;
+    height: 2.15rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 900;
+    background-color: #000;
+    color: whitesmoke;
+    margin: 32px 0px 30px 35px;
+  }
+}
