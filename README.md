@@ -20,3 +20,6 @@ The next task is to make the Netflix clone functional using JavaScript. This wil
 
 Conclusion:
 The team has made significant progress in creating a clone of Netflix using HTML and CSS. The next step of making it functional using JavaScript is underway.
+
+## Screenshot
+<img width="1893" height="835" alt="nf" src="https://github.com/user-attachments/assets/b137c17f-e612-4a5f-ba6a-dbc2ece26d9d" />
